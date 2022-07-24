@@ -1,0 +1,29 @@
+.admin-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+.admin-menu ul{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-menu li{
+    list-style: none;
+    width: 100px;
+    font-weight: bold;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a.active {
+    background: "#ced1cc";
+  }

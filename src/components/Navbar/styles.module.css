@@ -1,0 +1,42 @@
+.logo{
+  font-weight: 700;
+}
+.nav {
+  padding: 15px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e2e8f0;
+  line-height: 2px;
+}
+
+.nav .left {
+  width: 50%;
+  display: flex;
+  height: 5vh;
+}
+
+.nav .left .menu {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.nav .left .menu li a {
+  color: #4a5568;
+  text-decoration: none;
+  font-style: 1.1rem;
+  padding: 3px 16px;
+  display: block;
+  font-style: 16px;
+}
+
+.nav .left .menu li a:hover {
+  color: #000;
+}
+
+.nav .right a:first-child {
+  margin-right: 10px;
+}

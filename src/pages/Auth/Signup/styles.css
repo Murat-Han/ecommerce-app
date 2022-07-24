@@ -1,0 +1,13 @@
+.form{
+    border:1px solid #dcdcdc;
+    border-radius:5px;
+    padding:15px;
+}
+
+.form:hover{
+    box-shadow: 1px 1px 12px 1px #dcdcdc;
+  }
+  .form:focus-within{
+    box-shadow: 1px 1px 12px 1px #dcdcdc;
+    outline:none;
+  }
